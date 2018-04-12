@@ -1,0 +1,31 @@
+<svg width="1256" height="1112" viewBox="0 0 1256 1112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Component</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(2 0 0 2 584 566)">
+<g id="Component">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(-292 -283)" fill="#71D0F1"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-292 -283)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-292 -283)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(-228.094 -205.48)" fill="#FFFFFF"/>
+<use xlink:href="#path3_fill" transform="translate(-228.094 -205.48)" fill="#FFFFFF"/>
+</g>
+<g id="SKIIX">
+<use xlink:href="#path4_fill" transform="translate(-98.0273 134.236)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 628 278C 628 431.535 487.417 556 314 556C 140.583 556 0 431.535 0 278C 0 124.465 140.583 0 314 0C 487.417 0 628 124.465 628 278Z"/>
+<path id="path1_stroke_2x" d="M 623 278C 623 428.219 485.246 551 314 551L 314 561C 489.589 561 633 434.851 633 278L 623 278ZM 314 551C 142.754 551 5 428.219 5 278L -5 278C -5 434.851 138.411 561 314 561L 314 551ZM 5 278C 5 127.781 142.754 5 314 5L 314 -5C 138.411 -5 -5 121.149 -5 278L 5 278ZM 314 5C 485.246 5 623 127.781 623 278L 633 278C 633 121.149 489.589 -5 314 -5L 314 5Z"/>
+<path id="path2_fill" d="M 330.469 170.273L 318.681 150.45L 349.224 101.835C 361.186 87.4059 367.386 90.3492 378.159 101.835L 486.934 276.47C 506.073 304.059 505.748 313.279 486.934 319.421L 423.705 319.421L 354.582 207.088L 380.838 178.297L 400.128 178.297L 363.691 117.883L 330.469 170.273Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 404.951 319.421L 208.835 7.43772C 196.913 -3.14061 191.089 -1.79508 181.507 7.43772L 0.930163 295.821C -1.81593 308.253 1.44923 312.994 11.6469 319.421L 404.951 319.421ZM 257.596 170.273L 218.48 213.696L 204.012 185.377L 161.681 232.575L 124.173 154.697L 196.51 39.5328L 278.493 170.273L 257.596 170.273Z"/>
+<path id="path4_fill" d="M 0 54C 0 51.5156 0.867188 49.4062 2.60156 47.6719C 4.38281 45.8906 6.51562 45 9 45L 45 45L 45 36L 0 36L 0 9L 54 9C 54 11.5312 53.1094 13.6641 51.3281 15.3984C 49.5469 17.1328 47.4375 18 45 18L 9 18L 9 27L 54 27L 54 54L 0 54ZM 63 54L 63 9L 72 9L 72 54L 63 54ZM 103.5 54L 81 31.5L 103.5 9L 117 9L 99 27L 98.9297 27L 94.5 31.5L 117 54L 103.5 54ZM 126 54L 126 9L 135 9L 135 54L 126 54ZM 144 54L 144 9L 153 9L 153 54L 144 54ZM 162 54L 162 45L 175.5 31.5L 171 27L 162 18L 162 9L 171 9L 171 13.5L 189 31.5L 171 49.5L 171 54L 162 54ZM 207 54L 207 49.5L 189 31.5L 207 13.5L 207 9L 216 9L 216 18L 207 27L 206.93 27L 202.5 31.5L 216 45L 216 54L 207 54Z"/>
+</defs>
+</svg>

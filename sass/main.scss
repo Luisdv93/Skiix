@@ -7,9 +7,10 @@
 @import "base/typography";
 @import "base/utilities";
 
-@import "components/button.scss";
+@import "components/button";
+@import "components/composition";
 
-@import "layout/_grid.scss";
+@import "layout/grid";
 @import "layout/header";
 
 @import "pages/home";

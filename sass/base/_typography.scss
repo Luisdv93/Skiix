@@ -4,34 +4,42 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: $color-grey-dark;
-  padding: 30px;
 }
 
 .heading-primary {
   color: $color-white;
   text-transform: uppercase;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
   backface-visibility: hidden;
 
   &--main {
     display: block;
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 20px;
+    letter-spacing: 2rem;
     animation-name: move-in-left;
     animation-duration: 1.5s;
     animation-timing-function: ease-out;
+
+    @include respond(phone) {
+      letter-spacing: 1rem;
+      font-size: 5rem;
+    }
   }
 
   &--sub {
     display: block;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
-    letter-spacing: 20px;
-    margin: 0 20px;
+    letter-spacing: 2rem;
+    margin: 0 2rem;
     animation-name: move-in-right;
     animation-duration: 1.5s;
     animation-timing-function: ease-out;
+
+    @include respond(phone) {
+      letter-spacing: 0.5rem;
+    }
   }
 }
 
@@ -47,8 +55,14 @@ body {
   );
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: 2px;
+  letter-spacing: 0.2px;
   transition: all 0.2s;
+  @include respond(tab-port) {
+    font-size: 3rem;
+  }
+  @include respond(phone) {
+    font-size: 2.5rem;
+  }
   &:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
